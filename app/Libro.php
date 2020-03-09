@@ -16,6 +16,6 @@ class Libro extends Model
         return $this->belongsToMany(Etiqueta::class); //Relación muchos a muchos libro - Etiqueta
     }
 
-    //Mensaje de prueba para Git
+    // Mensaje para GitHub
     
 }
